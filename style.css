@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+nav {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 25px;
+  cursor: pointer;
+  color: #ffcc00;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul > li {
+  margin: 0 15px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+ul > li:hover {
+  color: #ff3c38;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+h2 {
+  color: #ff3c38;
+  margin: 30px 0 15px;
+}
+
+#alert {
+  display: none;
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 2px solid #333;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #222;
+  color: #ffcc00;
+}
+
+td img {
+  cursor: pointer;
+  margin-left: 8px;
+  position: relative;
+  bottom: -2px;
+  width: 15px;
+  height: 15px;
+}
+
+.password-form {
+  background-color: #1e1e1e;
+  padding: 30px;
+  border: 2px solid #444;
+  border-radius: 12px;
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.password-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #f0f0f0;
+}
+
+.password-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 6px;
+}
+
+.btn,
+.btnsm {
+  padding: 10px 20px;
+  background: #ff3c38;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover,
+.btnsm:hover {
+  background: #e6322d;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  color: #ffcc00;
+  font-weight: 500;
+}

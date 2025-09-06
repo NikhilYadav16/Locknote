@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Locknote - Personal Password Manager</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav>
+    <div class="logo">LockNote</div>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Password Manager</h1>
+    <p class="subheading">
+      Welcome aboard! Thank you for joining us. In today's digital world, managing passwords can be a hassle—we're here to make it effortless.
+    </p>
+
+    <h2>Your Passwords <span id="alert">(Copied!)</span></h2>
+    <table>
+      <tr>
+        <th>Website</th>
+        <th>Username</th>
+        <th>Password</th>
+        <th>Delete</th>
+      </tr>
+    </table>
+
+    <h2>Add a Password</h2>
+    <form id="passwordForm" class="password-form">
+
+      <label for="website">Website:</label>
+      <input type="text" id="website" name="website" required /><br />
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required /><br />
+
+      <button class="btn" type="submit">Submit</button>
+    </form>
+  </div>
+
+  <footer>
+    Made with ❤️ by Nikhil Yadav
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
